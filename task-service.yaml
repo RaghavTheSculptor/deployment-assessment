@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: task-service
-          image: my-task-project/task-service:latest
+          image: gcr.io/assessment-5-452108/task-service:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8082
