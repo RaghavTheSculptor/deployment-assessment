@@ -45,6 +45,8 @@ spec:
               value: "postgres"
             - name: POSTGRES_DB
               value: "postgres"
+            - name: PGDATA  # Explicitly set PGDATA to match the volume mount
+              value: "/var/lib/postgresql/data/pgData"
           ports:
             - containerPort: 5432
           volumeMounts:
