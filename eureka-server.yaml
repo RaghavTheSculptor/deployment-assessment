@@ -26,6 +26,6 @@ spec:
       containers:
         - name: eureka-server
           image: my-task-project/eureka-server:latest
-          imagePullPolicy: Never
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8761
