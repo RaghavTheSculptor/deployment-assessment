@@ -1,4 +1,4 @@
-FROM openjdk:23-jdk
+FROM openjdk:17-jdk
 WORKDIR /app
 COPY target/eureka-server.jar app.jar
 EXPOSE 8761

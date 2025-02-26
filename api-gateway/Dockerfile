@@ -1,4 +1,4 @@
-FROM openjdk:23-jdk
+FROM openjdk:17-jdk
 WORKDIR /app
 COPY target/api-gateway.jar app.jar
 EXPOSE 8080
